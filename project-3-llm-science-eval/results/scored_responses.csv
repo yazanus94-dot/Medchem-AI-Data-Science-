@@ -1,0 +1,289 @@
+response_id,responder,question_id,category,kind,label,score,error_type,extracted,explicit_final
+SimResponder-A-N01-1,SimResponder-A,N01,Potency and assay math,numeric,correct,1.0,,7.6,False
+SimResponder-A-N01-2,SimResponder-A,N01,Potency and assay math,numeric,correct,1.0,,7.6,False
+SimResponder-A-N01-3,SimResponder-A,N01,Potency and assay math,numeric,correct,1.0,,7.6,True
+SimResponder-A-N01-4,SimResponder-A,N01,Potency and assay math,numeric,correct,1.0,,7.6,True
+SimResponder-A-N02-1,SimResponder-A,N02,Potency and assay math,numeric,incorrect,0.0,method_or_arithmetic_error,356.2 nm,False
+SimResponder-A-N02-2,SimResponder-A,N02,Potency and assay math,numeric,incorrect,0.0,power_of_ten_error,50.12 nm,False
+SimResponder-A-N02-3,SimResponder-A,N02,Potency and assay math,numeric,correct,1.0,,501 nm,False
+SimResponder-A-N02-4,SimResponder-A,N02,Potency and assay math,numeric,incorrect,0.0,power_of_ten_error,0.501 nm,False
+SimResponder-A-N03-1,SimResponder-A,N03,Enzyme kinetics and binding,numeric,correct,1.0,,20 nm,True
+SimResponder-A-N03-2,SimResponder-A,N03,Enzyme kinetics and binding,numeric,correct,1.0,,20 nm,False
+SimResponder-A-N03-3,SimResponder-A,N03,Enzyme kinetics and binding,numeric,partial,0.5,approximation_error,21.12 nm,True
+SimResponder-A-N03-4,SimResponder-A,N03,Enzyme kinetics and binding,numeric,incorrect,0.0,power_of_ten_error,200 nm,True
+SimResponder-A-N04-1,SimResponder-A,N04,Assay quality and statistics,numeric,correct,1.0,,0.7,True
+SimResponder-A-N04-2,SimResponder-A,N04,Assay quality and statistics,numeric,correct,1.0,,0.7,True
+SimResponder-A-N04-3,SimResponder-A,N04,Assay quality and statistics,numeric,correct,1.0,,0.7,False
+SimResponder-A-N04-4,SimResponder-A,N04,Assay quality and statistics,numeric,correct,1.0,,0.7,True
+SimResponder-A-N05-1,SimResponder-A,N05,Drug-likeness and efficiency,numeric,correct,1.0,,0.342 kcal/mol,True
+SimResponder-A-N05-2,SimResponder-A,N05,Drug-likeness and efficiency,numeric,correct,1.0,,0.342 kcal/mol,False
+SimResponder-A-N05-3,SimResponder-A,N05,Drug-likeness and efficiency,numeric,correct,1.0,,0.342 kcal/mol,True
+SimResponder-A-N05-4,SimResponder-A,N05,Drug-likeness and efficiency,numeric,correct,1.0,,0.342 kcal/mol,True
+SimResponder-A-N06-1,SimResponder-A,N06,Drug-likeness and efficiency,numeric,correct,1.0,,4.4,False
+SimResponder-A-N06-2,SimResponder-A,N06,Drug-likeness and efficiency,numeric,correct,1.0,,4.4,True
+SimResponder-A-N06-3,SimResponder-A,N06,Drug-likeness and efficiency,numeric,correct,1.0,,4.4,False
+SimResponder-A-N06-4,SimResponder-A,N06,Drug-likeness and efficiency,numeric,correct,1.0,,4.4,True
+SimResponder-A-N07-1,SimResponder-A,N07,Omics statistics,numeric,correct,1.0,,2,True
+SimResponder-A-N07-2,SimResponder-A,N07,Omics statistics,numeric,correct,1.0,,2,False
+SimResponder-A-N07-3,SimResponder-A,N07,Omics statistics,numeric,correct,1.0,,2,True
+SimResponder-A-N07-4,SimResponder-A,N07,Omics statistics,numeric,correct,1.0,,2,True
+SimResponder-A-N08-1,SimResponder-A,N08,Omics statistics,numeric,correct,1.0,,0.0504,False
+SimResponder-A-N08-2,SimResponder-A,N08,Omics statistics,numeric,correct,1.0,,0.0504,True
+SimResponder-A-N08-3,SimResponder-A,N08,Omics statistics,numeric,incorrect,0.0,power_of_ten_error,5.04,False
+SimResponder-A-N08-4,SimResponder-A,N08,Omics statistics,numeric,correct,1.0,,0.0504,True
+SimResponder-A-N09-1,SimResponder-A,N09,Omics statistics,numeric,correct,1.0,,2.5e-06,True
+SimResponder-A-N09-2,SimResponder-A,N09,Omics statistics,numeric,correct,1.0,,2.5e-06,True
+SimResponder-A-N09-3,SimResponder-A,N09,Omics statistics,numeric,incorrect,0.0,method_or_arithmetic_error,1000,True
+SimResponder-A-N09-4,SimResponder-A,N09,Omics statistics,numeric,correct,1.0,,2.5e-06,True
+SimResponder-A-N10-1,SimResponder-A,N10,Omics statistics,numeric,correct,1.0,,1.643e-07,False
+SimResponder-A-N10-2,SimResponder-A,N10,Omics statistics,numeric,correct,1.0,,1.643e-07,True
+SimResponder-A-N10-3,SimResponder-A,N10,Omics statistics,numeric,correct,1.0,,1.643e-07,True
+SimResponder-A-N10-4,SimResponder-A,N10,Omics statistics,numeric,correct,1.0,,1.643e-07,True
+SimResponder-A-N11-1,SimResponder-A,N11,Enzyme kinetics and binding,numeric,correct,1.0,,-10.9 kcal/mol,True
+SimResponder-A-N11-2,SimResponder-A,N11,Enzyme kinetics and binding,numeric,correct,1.0,,-10.9 kcal/mol,True
+SimResponder-A-N11-3,SimResponder-A,N11,Enzyme kinetics and binding,numeric,correct,1.0,,-10.9 kcal/mol,True
+SimResponder-A-N11-4,SimResponder-A,N11,Enzyme kinetics and binding,numeric,correct,1.0,,-10.9 kcal/mol,True
+SimResponder-A-N12-1,SimResponder-A,N12,Enzyme kinetics and binding,numeric,correct,1.0,,0.833,False
+SimResponder-A-N12-2,SimResponder-A,N12,Enzyme kinetics and binding,numeric,correct,1.0,,0.833,True
+SimResponder-A-N12-3,SimResponder-A,N12,Enzyme kinetics and binding,numeric,correct,1.0,,0.833,True
+SimResponder-A-N12-4,SimResponder-A,N12,Enzyme kinetics and binding,numeric,correct,1.0,,0.833,True
+SimResponder-A-N13-1,SimResponder-A,N13,Assay preparation,numeric,correct,1.0,,0.5 ul,True
+SimResponder-A-N13-2,SimResponder-A,N13,Assay preparation,numeric,correct,1.0,,0.5 ul,True
+SimResponder-A-N13-3,SimResponder-A,N13,Assay preparation,numeric,correct,1.0,,0.5 ul,True
+SimResponder-A-N13-4,SimResponder-A,N13,Assay preparation,numeric,incorrect,0.0,method_or_arithmetic_error,0.3257 ul,True
+SimResponder-A-N14-1,SimResponder-A,N14,Chemistry basics,numeric,correct,1.0,,302 g/mol,True
+SimResponder-A-N14-2,SimResponder-A,N14,Chemistry basics,numeric,correct,1.0,,302 g/mol,False
+SimResponder-A-N14-3,SimResponder-A,N14,Chemistry basics,numeric,correct,1.0,,302 g/mol,False
+SimResponder-A-N14-4,SimResponder-A,N14,Chemistry basics,numeric,correct,1.0,,302 g/mol,False
+SimResponder-A-N15-1,SimResponder-A,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-A-N15-2,SimResponder-A,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-A-N15-3,SimResponder-A,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-A-N15-4,SimResponder-A,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-A-N16-1,SimResponder-A,N16,Pharmacology,numeric,correct,1.0,,0.75,False
+SimResponder-A-N16-2,SimResponder-A,N16,Pharmacology,numeric,correct,1.0,,0.75,True
+SimResponder-A-N16-3,SimResponder-A,N16,Pharmacology,numeric,correct,1.0,,0.75,True
+SimResponder-A-N16-4,SimResponder-A,N16,Pharmacology,numeric,correct,1.0,,0.75,True
+SimResponder-A-N17-1,SimResponder-A,N17,Pharmacology,numeric,correct,1.0,,300 fold,True
+SimResponder-A-N17-2,SimResponder-A,N17,Pharmacology,numeric,correct,1.0,,300 fold,True
+SimResponder-A-N17-3,SimResponder-A,N17,Pharmacology,numeric,partial,0.5,approximation_error,290.6 fold,False
+SimResponder-A-N17-4,SimResponder-A,N17,Pharmacology,numeric,correct,1.0,,300 fold,True
+SimResponder-A-N18-1,SimResponder-A,N18,Potency and assay math,numeric,correct,1.0,,7,False
+SimResponder-A-N18-2,SimResponder-A,N18,Potency and assay math,numeric,incorrect,0.0,method_or_arithmetic_error,14.08,True
+SimResponder-A-N18-3,SimResponder-A,N18,Potency and assay math,numeric,correct,1.0,,7,True
+SimResponder-A-N18-4,SimResponder-A,N18,Potency and assay math,numeric,correct,1.0,,7,False
+SimResponder-A-C01-1,SimResponder-A,C01,Concepts: enzyme kinetics,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.50,False
+SimResponder-A-C01-2,SimResponder-A,C01,Concepts: enzyme kinetics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C01-3,SimResponder-A,C01,Concepts: enzyme kinetics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C01-4,SimResponder-A,C01,Concepts: enzyme kinetics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C02-1,SimResponder-A,C02,Concepts: data and modelling,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C02-2,SimResponder-A,C02,Concepts: data and modelling,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C02-3,SimResponder-A,C02,Concepts: data and modelling,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C02-4,SimResponder-A,C02,Concepts: data and modelling,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C03-1,SimResponder-A,C03,Concepts: drug-likeness,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C03-2,SimResponder-A,C03,Concepts: drug-likeness,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C03-3,SimResponder-A,C03,Concepts: drug-likeness,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C03-4,SimResponder-A,C03,Concepts: drug-likeness,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C04-1,SimResponder-A,C04,Concepts: data quality,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-A-C04-2,SimResponder-A,C04,Concepts: data quality,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-A-C04-3,SimResponder-A,C04,Concepts: data quality,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-A-C04-4,SimResponder-A,C04,Concepts: data quality,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C05-1,SimResponder-A,C05,Concepts: screening,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C05-2,SimResponder-A,C05,Concepts: screening,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C05-3,SimResponder-A,C05,Concepts: screening,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C05-4,SimResponder-A,C05,Concepts: screening,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C06-1,SimResponder-A,C06,Concepts: omics statistics,concept,partial,0.67,missing_key_point,coverage=0.67,False
+SimResponder-A-C06-2,SimResponder-A,C06,Concepts: omics statistics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-A-C06-3,SimResponder-A,C06,Concepts: omics statistics,concept,partial,0.67,missing_key_point,coverage=0.67,False
+SimResponder-A-C06-4,SimResponder-A,C06,Concepts: omics statistics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-N01-1,SimResponder-B,N01,Potency and assay math,numeric,correct,1.0,,7.6,False
+SimResponder-B-N01-2,SimResponder-B,N01,Potency and assay math,numeric,incorrect,0.0,power_of_ten_error,76.02,True
+SimResponder-B-N01-3,SimResponder-B,N01,Potency and assay math,numeric,correct,1.0,,7.6,True
+SimResponder-B-N01-4,SimResponder-B,N01,Potency and assay math,numeric,correct,1.0,,7.6,False
+SimResponder-B-N02-1,SimResponder-B,N02,Potency and assay math,numeric,correct,1.0,,501 nm,True
+SimResponder-B-N02-2,SimResponder-B,N02,Potency and assay math,numeric,correct,1.0,,501 nm,False
+SimResponder-B-N02-3,SimResponder-B,N02,Potency and assay math,numeric,partial,0.8,unit_missing,501,True
+SimResponder-B-N02-4,SimResponder-B,N02,Potency and assay math,numeric,correct,1.0,,501 nm,True
+SimResponder-B-N03-1,SimResponder-B,N03,Enzyme kinetics and binding,numeric,correct,1.0,,20 nm,True
+SimResponder-B-N03-2,SimResponder-B,N03,Enzyme kinetics and binding,numeric,correct,1.0,,20 nm,True
+SimResponder-B-N03-3,SimResponder-B,N03,Enzyme kinetics and binding,numeric,correct,1.0,,0.02 um,True
+SimResponder-B-N03-4,SimResponder-B,N03,Enzyme kinetics and binding,numeric,partial,0.8,unit_missing,20,False
+SimResponder-B-N04-1,SimResponder-B,N04,Assay quality and statistics,numeric,incorrect,0.0,method_or_arithmetic_error,0.4237,False
+SimResponder-B-N04-2,SimResponder-B,N04,Assay quality and statistics,numeric,incorrect,0.0,method_or_arithmetic_error,0.4824,True
+SimResponder-B-N04-3,SimResponder-B,N04,Assay quality and statistics,numeric,partial,0.5,approximation_error,0.6119,True
+SimResponder-B-N04-4,SimResponder-B,N04,Assay quality and statistics,numeric,partial,0.5,approximation_error,0.7453,True
+SimResponder-B-N05-1,SimResponder-B,N05,Drug-likeness and efficiency,numeric,partial,0.8,unit_missing,0.342,True
+SimResponder-B-N05-2,SimResponder-B,N05,Drug-likeness and efficiency,numeric,incorrect,0.0,method_or_arithmetic_error,0.6451 kcal/mol,False
+SimResponder-B-N05-3,SimResponder-B,N05,Drug-likeness and efficiency,numeric,partial,0.8,unit_missing,0.342,True
+SimResponder-B-N05-4,SimResponder-B,N05,Drug-likeness and efficiency,numeric,correct,1.0,,0.342 kcal/mol,True
+SimResponder-B-N06-1,SimResponder-B,N06,Drug-likeness and efficiency,numeric,correct,1.0,,4.4,False
+SimResponder-B-N06-2,SimResponder-B,N06,Drug-likeness and efficiency,numeric,correct,1.0,,4.4,True
+SimResponder-B-N06-3,SimResponder-B,N06,Drug-likeness and efficiency,numeric,correct,1.0,,4.4,True
+SimResponder-B-N06-4,SimResponder-B,N06,Drug-likeness and efficiency,numeric,incorrect,0.0,method_or_arithmetic_error,6.844,False
+SimResponder-B-N07-1,SimResponder-B,N07,Omics statistics,numeric,partial,0.5,approximation_error,1.89,True
+SimResponder-B-N07-2,SimResponder-B,N07,Omics statistics,numeric,partial,0.5,approximation_error,1.792,True
+SimResponder-B-N07-3,SimResponder-B,N07,Omics statistics,numeric,correct,1.0,,2,False
+SimResponder-B-N07-4,SimResponder-B,N07,Omics statistics,numeric,correct,1.0,,2,False
+SimResponder-B-N08-1,SimResponder-B,N08,Omics statistics,numeric,partial,0.5,approximation_error,0.05272,True
+SimResponder-B-N08-2,SimResponder-B,N08,Omics statistics,numeric,correct,1.0,,0.0504,True
+SimResponder-B-N08-3,SimResponder-B,N08,Omics statistics,numeric,incorrect,0.0,method_or_arithmetic_error,0.03732,True
+SimResponder-B-N08-4,SimResponder-B,N08,Omics statistics,numeric,correct,1.0,,0.0504,True
+SimResponder-B-N09-1,SimResponder-B,N09,Omics statistics,numeric,incorrect,0.0,power_of_ten_error,0.0025,False
+SimResponder-B-N09-2,SimResponder-B,N09,Omics statistics,numeric,incorrect,0.0,method_or_arithmetic_error,1.5538e-06,False
+SimResponder-B-N09-3,SimResponder-B,N09,Omics statistics,numeric,correct,1.0,,2.5e-06,True
+SimResponder-B-N09-4,SimResponder-B,N09,Omics statistics,numeric,correct,1.0,,2.5e-06,False
+SimResponder-B-N10-1,SimResponder-B,N10,Omics statistics,numeric,partial,0.5,approximation_error,1.3613e-07,True
+SimResponder-B-N10-2,SimResponder-B,N10,Omics statistics,numeric,partial,0.5,approximation_error,1.2768e-07,True
+SimResponder-B-N10-3,SimResponder-B,N10,Omics statistics,numeric,incorrect,0.0,method_or_arithmetic_error,3.0833e-07,True
+SimResponder-B-N10-4,SimResponder-B,N10,Omics statistics,numeric,correct,1.0,,1.643e-07,True
+SimResponder-B-N11-1,SimResponder-B,N11,Enzyme kinetics and binding,numeric,correct,1.0,,-10.9 kcal/mol,False
+SimResponder-B-N11-2,SimResponder-B,N11,Enzyme kinetics and binding,numeric,correct,1.0,,-10.9 kcal/mol,True
+SimResponder-B-N11-3,SimResponder-B,N11,Enzyme kinetics and binding,numeric,correct,1.0,,-10.9 kcal/mol,True
+SimResponder-B-N11-4,SimResponder-B,N11,Enzyme kinetics and binding,numeric,incorrect,0.0,method_or_arithmetic_error,-109.1 kcal/mol,False
+SimResponder-B-N12-1,SimResponder-B,N12,Enzyme kinetics and binding,numeric,incorrect,0.0,method_or_arithmetic_error,0.5594,True
+SimResponder-B-N12-2,SimResponder-B,N12,Enzyme kinetics and binding,numeric,correct,1.0,,0.833,False
+SimResponder-B-N12-3,SimResponder-B,N12,Enzyme kinetics and binding,numeric,correct,1.0,,0.833,True
+SimResponder-B-N12-4,SimResponder-B,N12,Enzyme kinetics and binding,numeric,correct,1.0,,0.833,True
+SimResponder-B-N13-1,SimResponder-B,N13,Assay preparation,numeric,incorrect,0.0,method_or_arithmetic_error,1 ul,False
+SimResponder-B-N13-2,SimResponder-B,N13,Assay preparation,numeric,correct,1.0,,0.5 ul,True
+SimResponder-B-N13-3,SimResponder-B,N13,Assay preparation,numeric,correct,1.0,,0.5 ul,False
+SimResponder-B-N13-4,SimResponder-B,N13,Assay preparation,numeric,incorrect,0.0,method_or_arithmetic_error,1 ul,True
+SimResponder-B-N14-1,SimResponder-B,N14,Chemistry basics,numeric,incorrect,0.0,power_of_ten_error,30170 g/mol,True
+SimResponder-B-N14-2,SimResponder-B,N14,Chemistry basics,numeric,correct,1.0,,302 g/mol,True
+SimResponder-B-N14-3,SimResponder-B,N14,Chemistry basics,numeric,correct,1.0,,302 g/mol,True
+SimResponder-B-N14-4,SimResponder-B,N14,Chemistry basics,numeric,correct,1.0,,302 g/mol,True
+SimResponder-B-N15-1,SimResponder-B,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-B-N15-2,SimResponder-B,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-B-N15-3,SimResponder-B,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-B-N15-4,SimResponder-B,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-B-N16-1,SimResponder-B,N16,Pharmacology,numeric,correct,1.0,,0.75,True
+SimResponder-B-N16-2,SimResponder-B,N16,Pharmacology,numeric,correct,1.0,,0.75,True
+SimResponder-B-N16-3,SimResponder-B,N16,Pharmacology,numeric,incorrect,0.0,method_or_arithmetic_error,1.029,True
+SimResponder-B-N16-4,SimResponder-B,N16,Pharmacology,numeric,correct,1.0,,0.75,False
+SimResponder-B-N17-1,SimResponder-B,N17,Pharmacology,numeric,correct,1.0,,300 fold,True
+SimResponder-B-N17-2,SimResponder-B,N17,Pharmacology,numeric,correct,1.0,,300 fold,True
+SimResponder-B-N17-3,SimResponder-B,N17,Pharmacology,numeric,incorrect,0.0,method_or_arithmetic_error,203.6 fold,True
+SimResponder-B-N17-4,SimResponder-B,N17,Pharmacology,numeric,incorrect,0.0,method_or_arithmetic_error,689.1 fold,True
+SimResponder-B-N18-1,SimResponder-B,N18,Potency and assay math,numeric,incorrect,0.0,power_of_ten_error,0.07,True
+SimResponder-B-N18-2,SimResponder-B,N18,Potency and assay math,numeric,incorrect,0.0,power_of_ten_error,70,True
+SimResponder-B-N18-3,SimResponder-B,N18,Potency and assay math,numeric,correct,1.0,,7,False
+SimResponder-B-N18-4,SimResponder-B,N18,Potency and assay math,numeric,correct,1.0,,7,True
+SimResponder-B-C01-1,SimResponder-B,C01,Concepts: enzyme kinetics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C01-2,SimResponder-B,C01,Concepts: enzyme kinetics,concept,incorrect,0.25,missing_most_key_points,coverage=0.25,False
+SimResponder-B-C01-3,SimResponder-B,C01,Concepts: enzyme kinetics,concept,incorrect,0.25,missing_most_key_points,coverage=0.25,False
+SimResponder-B-C01-4,SimResponder-B,C01,Concepts: enzyme kinetics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C02-1,SimResponder-B,C02,Concepts: data and modelling,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C02-2,SimResponder-B,C02,Concepts: data and modelling,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C02-3,SimResponder-B,C02,Concepts: data and modelling,concept,incorrect,0.25,missing_most_key_points,coverage=0.25,False
+SimResponder-B-C02-4,SimResponder-B,C02,Concepts: data and modelling,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C03-1,SimResponder-B,C03,Concepts: drug-likeness,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C03-2,SimResponder-B,C03,Concepts: drug-likeness,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-B-C03-3,SimResponder-B,C03,Concepts: drug-likeness,concept,incorrect,0.25,missing_most_key_points,coverage=0.25,False
+SimResponder-B-C03-4,SimResponder-B,C03,Concepts: drug-likeness,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.50,False
+SimResponder-B-C04-1,SimResponder-B,C04,Concepts: data quality,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C04-2,SimResponder-B,C04,Concepts: data quality,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C04-3,SimResponder-B,C04,Concepts: data quality,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.50,False
+SimResponder-B-C04-4,SimResponder-B,C04,Concepts: data quality,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-B-C05-1,SimResponder-B,C05,Concepts: screening,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.50,False
+SimResponder-B-C05-2,SimResponder-B,C05,Concepts: screening,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C05-3,SimResponder-B,C05,Concepts: screening,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C05-4,SimResponder-B,C05,Concepts: screening,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-B-C06-1,SimResponder-B,C06,Concepts: omics statistics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C06-2,SimResponder-B,C06,Concepts: omics statistics,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.67,False
+SimResponder-B-C06-3,SimResponder-B,C06,Concepts: omics statistics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-B-C06-4,SimResponder-B,C06,Concepts: omics statistics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-C-N01-1,SimResponder-C,N01,Potency and assay math,numeric,correct,1.0,,7.6,True
+SimResponder-C-N01-2,SimResponder-C,N01,Potency and assay math,numeric,incorrect,0.0,method_or_arithmetic_error,3.432,True
+SimResponder-C-N01-3,SimResponder-C,N01,Potency and assay math,numeric,incorrect,0.0,method_or_arithmetic_error,1.4,True
+SimResponder-C-N01-4,SimResponder-C,N01,Potency and assay math,numeric,incorrect,0.0,method_or_arithmetic_error,3.457,True
+SimResponder-C-N02-1,SimResponder-C,N02,Potency and assay math,numeric,correct,1.0,,501 nm,True
+SimResponder-C-N02-2,SimResponder-C,N02,Potency and assay math,numeric,incorrect,0.0,method_or_arithmetic_error,825.3 nm,True
+SimResponder-C-N02-3,SimResponder-C,N02,Potency and assay math,numeric,partial,0.8,unit_missing,501,True
+SimResponder-C-N02-4,SimResponder-C,N02,Potency and assay math,numeric,correct,1.0,,501 nm,True
+SimResponder-C-N03-1,SimResponder-C,N03,Enzyme kinetics and binding,numeric,incorrect,0.0,method_or_arithmetic_error,100 nm,True
+SimResponder-C-N03-2,SimResponder-C,N03,Enzyme kinetics and binding,numeric,partial,0.5,approximation_error,19.26 nm,False
+SimResponder-C-N03-3,SimResponder-C,N03,Enzyme kinetics and binding,numeric,partial,0.8,unit_missing,20,True
+SimResponder-C-N03-4,SimResponder-C,N03,Enzyme kinetics and binding,numeric,incorrect,0.0,unit_error,20 kcal/mol,True
+SimResponder-C-N04-1,SimResponder-C,N04,Assay quality and statistics,numeric,incorrect,0.0,method_or_arithmetic_error,0.9,True
+SimResponder-C-N04-2,SimResponder-C,N04,Assay quality and statistics,numeric,incorrect,0.0,method_or_arithmetic_error,0.9,True
+SimResponder-C-N04-3,SimResponder-C,N04,Assay quality and statistics,numeric,incorrect,0.0,method_or_arithmetic_error,0.9,True
+SimResponder-C-N04-4,SimResponder-C,N04,Assay quality and statistics,numeric,correct,1.0,,0.7,True
+SimResponder-C-N05-1,SimResponder-C,N05,Drug-likeness and efficiency,numeric,incorrect,0.0,power_of_ten_error,342.5 kcal/mol,True
+SimResponder-C-N05-2,SimResponder-C,N05,Drug-likeness and efficiency,numeric,correct,1.0,,0.342 kcal/mol,False
+SimResponder-C-N05-3,SimResponder-C,N05,Drug-likeness and efficiency,numeric,incorrect,0.0,sign_error,-0.3425 kcal/mol,False
+SimResponder-C-N05-4,SimResponder-C,N05,Drug-likeness and efficiency,numeric,partial,0.5,approximation_error,0.3658 kcal/mol,False
+SimResponder-C-N06-1,SimResponder-C,N06,Drug-likeness and efficiency,numeric,correct,1.0,,4.4,True
+SimResponder-C-N06-2,SimResponder-C,N06,Drug-likeness and efficiency,numeric,incorrect,0.0,method_or_arithmetic_error,3.068,False
+SimResponder-C-N06-3,SimResponder-C,N06,Drug-likeness and efficiency,numeric,incorrect,0.0,power_of_ten_error,44,False
+SimResponder-C-N06-4,SimResponder-C,N06,Drug-likeness and efficiency,numeric,incorrect,0.0,sign_error,-4.4,True
+SimResponder-C-N07-1,SimResponder-C,N07,Omics statistics,numeric,correct,1.0,,2,True
+SimResponder-C-N07-2,SimResponder-C,N07,Omics statistics,numeric,correct,1.0,,2,True
+SimResponder-C-N07-3,SimResponder-C,N07,Omics statistics,numeric,correct,1.0,,2,False
+SimResponder-C-N07-4,SimResponder-C,N07,Omics statistics,numeric,incorrect,0.0,abstention,,False
+SimResponder-C-N08-1,SimResponder-C,N08,Omics statistics,numeric,incorrect,0.0,sign_error,-0.0504,True
+SimResponder-C-N08-2,SimResponder-C,N08,Omics statistics,numeric,incorrect,0.0,power_of_ten_error,5.04e-05,True
+SimResponder-C-N08-3,SimResponder-C,N08,Omics statistics,numeric,incorrect,0.0,method_or_arithmetic_error,0.03612,True
+SimResponder-C-N08-4,SimResponder-C,N08,Omics statistics,numeric,incorrect,0.0,method_or_arithmetic_error,0.03125,True
+SimResponder-C-N09-1,SimResponder-C,N09,Omics statistics,numeric,correct,1.0,,2.5e-06,True
+SimResponder-C-N09-2,SimResponder-C,N09,Omics statistics,numeric,incorrect,0.0,method_or_arithmetic_error,1.0154e-06,True
+SimResponder-C-N09-3,SimResponder-C,N09,Omics statistics,numeric,partial,0.5,approximation_error,2.6378e-06,False
+SimResponder-C-N09-4,SimResponder-C,N09,Omics statistics,numeric,incorrect,0.0,method_or_arithmetic_error,4.4734e-06,True
+SimResponder-C-N10-1,SimResponder-C,N10,Omics statistics,numeric,incorrect,0.0,power_of_ten_error,0.00016433,False
+SimResponder-C-N10-2,SimResponder-C,N10,Omics statistics,numeric,incorrect,0.0,abstention,,False
+SimResponder-C-N10-3,SimResponder-C,N10,Omics statistics,numeric,correct,1.0,,1.643e-07,True
+SimResponder-C-N10-4,SimResponder-C,N10,Omics statistics,numeric,incorrect,0.0,method_or_arithmetic_error,7.5,True
+SimResponder-C-N11-1,SimResponder-C,N11,Enzyme kinetics and binding,numeric,partial,0.5,approximation_error,-10.47 kcal/mol,True
+SimResponder-C-N11-2,SimResponder-C,N11,Enzyme kinetics and binding,numeric,partial,0.5,approximation_error,-11.31 kcal/mol,True
+SimResponder-C-N11-3,SimResponder-C,N11,Enzyme kinetics and binding,numeric,incorrect,0.0,method_or_arithmetic_error,-4.74 kcal/mol,True
+SimResponder-C-N11-4,SimResponder-C,N11,Enzyme kinetics and binding,numeric,incorrect,0.0,abstention,,False
+SimResponder-C-N12-1,SimResponder-C,N12,Enzyme kinetics and binding,numeric,incorrect,0.0,method_or_arithmetic_error,0.167,True
+SimResponder-C-N12-2,SimResponder-C,N12,Enzyme kinetics and binding,numeric,incorrect,0.0,sign_error,-0.8333,True
+SimResponder-C-N12-3,SimResponder-C,N12,Enzyme kinetics and binding,numeric,incorrect,0.0,method_or_arithmetic_error,0.167,False
+SimResponder-C-N12-4,SimResponder-C,N12,Enzyme kinetics and binding,numeric,partial,0.5,approximation_error,0.802,True
+SimResponder-C-N13-1,SimResponder-C,N13,Assay preparation,numeric,correct,1.0,,500 nl,True
+SimResponder-C-N13-2,SimResponder-C,N13,Assay preparation,numeric,correct,1.0,,0.5 ul,False
+SimResponder-C-N13-3,SimResponder-C,N13,Assay preparation,numeric,correct,1.0,,500 nl,True
+SimResponder-C-N13-4,SimResponder-C,N13,Assay preparation,numeric,correct,1.0,,0.5 ul,False
+SimResponder-C-N14-1,SimResponder-C,N14,Chemistry basics,numeric,correct,1.0,,302 g/mol,True
+SimResponder-C-N14-2,SimResponder-C,N14,Chemistry basics,numeric,incorrect,0.0,method_or_arithmetic_error,289.6 g/mol,False
+SimResponder-C-N14-3,SimResponder-C,N14,Chemistry basics,numeric,incorrect,0.0,method_or_arithmetic_error,289.6 g/mol,True
+SimResponder-C-N14-4,SimResponder-C,N14,Chemistry basics,numeric,incorrect,0.0,method_or_arithmetic_error,723.9 g/mol,True
+SimResponder-C-N15-1,SimResponder-C,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-C-N15-2,SimResponder-C,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-C-N15-3,SimResponder-C,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,False
+SimResponder-C-N15-4,SimResponder-C,N15,Drug-likeness and efficiency,numeric,correct,1.0,,2,True
+SimResponder-C-N16-1,SimResponder-C,N16,Pharmacology,numeric,correct,1.0,,0.75,False
+SimResponder-C-N16-2,SimResponder-C,N16,Pharmacology,numeric,correct,1.0,,0.75,False
+SimResponder-C-N16-3,SimResponder-C,N16,Pharmacology,numeric,incorrect,0.0,method_or_arithmetic_error,1.202,True
+SimResponder-C-N16-4,SimResponder-C,N16,Pharmacology,numeric,partial,0.5,approximation_error,0.7825,False
+SimResponder-C-N17-1,SimResponder-C,N17,Pharmacology,numeric,correct,1.0,,300 fold,False
+SimResponder-C-N17-2,SimResponder-C,N17,Pharmacology,numeric,incorrect,0.0,method_or_arithmetic_error,0.00333 fold,True
+SimResponder-C-N17-3,SimResponder-C,N17,Pharmacology,numeric,partial,0.5,approximation_error,324.9 fold,False
+SimResponder-C-N17-4,SimResponder-C,N17,Pharmacology,numeric,correct,1.0,,300 fold,True
+SimResponder-C-N18-1,SimResponder-C,N18,Potency and assay math,numeric,incorrect,0.0,method_or_arithmetic_error,3.38,False
+SimResponder-C-N18-2,SimResponder-C,N18,Potency and assay math,numeric,correct,1.0,,7,True
+SimResponder-C-N18-3,SimResponder-C,N18,Potency and assay math,numeric,partial,0.5,approximation_error,7.301,True
+SimResponder-C-N18-4,SimResponder-C,N18,Potency and assay math,numeric,correct,1.0,,7,True
+SimResponder-C-C01-1,SimResponder-C,C01,Concepts: enzyme kinetics,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.50,False
+SimResponder-C-C01-2,SimResponder-C,C01,Concepts: enzyme kinetics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-C-C01-3,SimResponder-C,C01,Concepts: enzyme kinetics,concept,incorrect,0.25,missing_most_key_points,coverage=0.25,False
+SimResponder-C-C01-4,SimResponder-C,C01,Concepts: enzyme kinetics,concept,incorrect,0.25,missing_most_key_points,coverage=0.25,False
+SimResponder-C-C02-1,SimResponder-C,C02,Concepts: data and modelling,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.50,False
+SimResponder-C-C02-2,SimResponder-C,C02,Concepts: data and modelling,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-C-C02-3,SimResponder-C,C02,Concepts: data and modelling,concept,correct,1.0,,coverage=1.00,False
+SimResponder-C-C02-4,SimResponder-C,C02,Concepts: data and modelling,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-C-C03-1,SimResponder-C,C03,Concepts: drug-likeness,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.50,False
+SimResponder-C-C03-2,SimResponder-C,C03,Concepts: drug-likeness,concept,correct,1.0,,coverage=1.00,False
+SimResponder-C-C03-3,SimResponder-C,C03,Concepts: drug-likeness,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-C-C03-4,SimResponder-C,C03,Concepts: drug-likeness,concept,incorrect,0.0,abstention,coverage=0.00,False
+SimResponder-C-C04-1,SimResponder-C,C04,Concepts: data quality,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.50,False
+SimResponder-C-C04-2,SimResponder-C,C04,Concepts: data quality,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-C-C04-3,SimResponder-C,C04,Concepts: data quality,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.50,False
+SimResponder-C-C04-4,SimResponder-C,C04,Concepts: data quality,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-C-C05-1,SimResponder-C,C05,Concepts: screening,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.50,False
+SimResponder-C-C05-2,SimResponder-C,C05,Concepts: screening,concept,incorrect,0.25,missing_most_key_points,coverage=0.25,False
+SimResponder-C-C05-3,SimResponder-C,C05,Concepts: screening,concept,partial,0.75,missing_key_point,coverage=0.75,False
+SimResponder-C-C05-4,SimResponder-C,C05,Concepts: screening,concept,incorrect,0.25,missing_most_key_points,coverage=0.25,False
+SimResponder-C-C06-1,SimResponder-C,C06,Concepts: omics statistics,concept,correct,1.0,,coverage=1.00,False
+SimResponder-C-C06-2,SimResponder-C,C06,Concepts: omics statistics,concept,incorrect,0.33,missing_most_key_points,coverage=0.33,False
+SimResponder-C-C06-3,SimResponder-C,C06,Concepts: omics statistics,concept,incorrect,0.0,contradicts_accepted_science,coverage=0.67,False
+SimResponder-C-C06-4,SimResponder-C,C06,Concepts: omics statistics,concept,incorrect,0.33,missing_most_key_points,coverage=0.33,False

@@ -1,0 +1,44 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Unit and end-to-end tests
+        run: python -m pytest
+
+      - name: Run all three pipelines
+        run: |
+          python project-1-bioactivity-data-qc/run_pipeline.py
+          python project-2-sar-modeling/run_analysis.py
+          python project-3-llm-science-eval/run_evaluation.py
+
+      - name: Upload generated artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: results-py${{ matrix.python-version }}
+          path: |
+            project-1-bioactivity-data-qc/results
+            project-2-sar-modeling/results
+            project-3-llm-science-eval/results
+          retention-days: 14

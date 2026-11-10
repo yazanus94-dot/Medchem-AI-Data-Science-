@@ -1,0 +1,815 @@
+[
+  {
+    "qid": "N01",
+    "category": "Potency and assay math",
+    "kind": "numeric",
+    "prompt": "A compound has an IC50 of 25 nM. What is its pIC50?",
+    "answer": 7.6020599913279625,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.02,
+    "partial_rel": 0.03,
+    "given": "IC50 = 25 nM",
+    "method": "pIC50 = 9 - log10(IC50 in nM)",
+    "wrong_values": [
+      1.4
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N02",
+    "category": "Potency and assay math",
+    "kind": "numeric",
+    "prompt": "A compound has a pIC50 of 6.3. What is its IC50 in nM?",
+    "answer": 501.18723362727246,
+    "unit": "nM",
+    "display_unit": "nM",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "pIC50 = 6.3",
+    "method": "IC50 (nM) = 10^(9 - pIC50)",
+    "wrong_values": [
+      0.501
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N03",
+    "category": "Enzyme kinetics and binding",
+    "kind": "numeric",
+    "prompt": "An enzyme assay gives an IC50 of 120 nM for a competitive inhibitor, measured at [S] = 50 uM with Km = 10 uM. What is the Ki in nM?",
+    "answer": 20.0,
+    "unit": "nM",
+    "display_unit": "nM",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "IC50 = 120 nM, [S] = 50 uM, Km = 10 uM",
+    "method": "Ki = IC50 / (1 + [S]/Km)",
+    "wrong_values": [
+      100.0
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N04",
+    "category": "Assay quality and statistics",
+    "kind": "numeric",
+    "prompt": "In a screening assay the positive control has mean 100 and SD 5, and the negative control has mean 10 and SD 4. What is the Z'-factor?",
+    "answer": 0.7,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.01,
+    "partial_rel": 0.15,
+    "given": "positive 100 +/- 5, negative 10 +/- 4",
+    "method": "Z' = 1 - 3(SDp + SDn)/|mean_p - mean_n|",
+    "wrong_values": [
+      0.9
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N05",
+    "category": "Drug-likeness and efficiency",
+    "kind": "numeric",
+    "prompt": "A ligand has pIC50 = 7.0 and 28 heavy atoms. Using LE = 1.37 x pIC50 / heavy atoms, what is its ligand efficiency in kcal/mol per heavy atom?",
+    "answer": 0.34249999999999997,
+    "unit": "kcal/mol",
+    "display_unit": "kcal/mol per heavy atom",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "pIC50 = 7.0, 28 heavy atoms",
+    "method": "LE = 1.37 * pIC50 / HA",
+    "wrong_values": [
+      0.25
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N06",
+    "category": "Drug-likeness and efficiency",
+    "kind": "numeric",
+    "prompt": "A compound has pIC50 = 7.5 and logP = 3.1. What is its lipophilic ligand efficiency (LLE)?",
+    "answer": 4.4,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.05,
+    "partial_rel": 0.1,
+    "given": "pIC50 = 7.5, logP = 3.1",
+    "method": "LLE = pIC50 - logP",
+    "wrong_values": [
+      10.6
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N07",
+    "category": "Omics statistics",
+    "kind": "numeric",
+    "prompt": "A gene has mean normalised counts of 80 in treated samples and 20 in controls. What is the log2 fold change (treated vs control)?",
+    "answer": 2.0,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.05,
+    "partial_rel": 0.2,
+    "given": "treated = 80, control = 20",
+    "method": "log2FC = log2(treated / control)",
+    "wrong_values": [
+      4.0
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N08",
+    "category": "Omics statistics",
+    "kind": "numeric",
+    "prompt": "Six genes have p-values 0.001, 0.008, 0.039, 0.041, 0.042 and 0.060. What is the Benjamini-Hochberg adjusted p-value of the gene with p = 0.039?",
+    "answer": 0.0504,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "p = 0.001, 0.008, 0.039, 0.041, 0.042, 0.060 (m = 6)",
+    "method": "adjusted p = min over larger ranks of p * m / rank",
+    "wrong_values": [
+      0.234
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N09",
+    "category": "Omics statistics",
+    "kind": "numeric",
+    "prompt": "A differential-expression study tests 20,000 genes at a family-wise alpha of 0.05. What is the Bonferroni per-test significance threshold?",
+    "answer": 2.5e-06,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "alpha = 0.05, m = 20000",
+    "method": "threshold = alpha / m",
+    "wrong_values": [
+      1000.0
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N10",
+    "category": "Omics statistics",
+    "kind": "numeric",
+    "prompt": "A background of 20,000 genes contains 500 pathway genes. A hit list of 300 genes contains 25 pathway genes. What is the hypergeometric enrichment p-value, P(X >= 25)?",
+    "answer": 1.6432929948933238e-07,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.05,
+    "abs_tol": 0.0,
+    "partial_rel": 0.25,
+    "given": "N = 20000, K = 500, n = 300, k = 25",
+    "method": "P(X >= k) from the hypergeometric distribution",
+    "wrong_values": [
+      7.5
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N11",
+    "category": "Enzyme kinetics and binding",
+    "kind": "numeric",
+    "prompt": "A ligand binds with Kd = 10 nM at 298.15 K. Using dG = RT ln(Kd) with R = 0.001987 kcal/mol/K, what is the binding free energy in kcal/mol?",
+    "answer": -10.91397468378589,
+    "unit": "kcal/mol",
+    "display_unit": "kcal/mol",
+    "rel_tol": 0.02,
+    "abs_tol": 0.15,
+    "partial_rel": 0.05,
+    "given": "Kd = 10 nM = 1e-8 M, T = 298.15 K",
+    "method": "dG = RT ln(Kd)",
+    "wrong_values": [
+      -4.74
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N12",
+    "category": "Enzyme kinetics and binding",
+    "kind": "numeric",
+    "prompt": "At a ligand concentration of 50 nM and Kd = 10 nM, what fraction of receptor is occupied?",
+    "answer": 0.8333333333333334,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.01,
+    "partial_rel": 0.1,
+    "given": "[L] = 50 nM, Kd = 10 nM",
+    "method": "occupancy = [L] / ([L] + Kd)",
+    "wrong_values": [
+      0.167
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N13",
+    "category": "Assay preparation",
+    "kind": "numeric",
+    "prompt": "How many uL of a 10 mM stock are needed to prepare 100 uL of a 50 uM solution?",
+    "answer": 0.5,
+    "unit": "uL",
+    "display_unit": "uL",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "stock = 10 mM = 10000 uM, final = 50 uM, volume = 100 uL",
+    "method": "C1V1 = C2V2",
+    "wrong_values": [
+      1.0
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N14",
+    "category": "Chemistry basics",
+    "kind": "numeric",
+    "prompt": "What is the molecular weight of C15H12ClN3O2? (C 12.011, H 1.008, Cl 35.45, N 14.007, O 15.999)",
+    "answer": 301.73,
+    "unit": "g/mol",
+    "display_unit": "g/mol",
+    "rel_tol": 0.01,
+    "abs_tol": 0.0,
+    "partial_rel": 0.0,
+    "given": "C15 H12 Cl N3 O2",
+    "method": "sum of atomic masses",
+    "wrong_values": [
+      289.6
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N15",
+    "category": "Drug-likeness and efficiency",
+    "kind": "numeric",
+    "prompt": "A compound has MW 540, logP 5.8, 2 H-bond donors and 9 H-bond acceptors. How many Lipinski rule-of-five criteria does it violate?",
+    "answer": 2.0,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.01,
+    "partial_rel": 0.0,
+    "given": "MW 540, logP 5.8, HBD 2, HBA 9",
+    "method": "count MW>500, logP>5, HBD>5, HBA>10",
+    "wrong_values": [
+      1.0
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N16",
+    "category": "Pharmacology",
+    "kind": "numeric",
+    "prompt": "An inhibitor with Hill slope 1 is applied at 3 x its IC50. What fraction of activity is inhibited?",
+    "answer": 0.75,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.01,
+    "partial_rel": 0.1,
+    "given": "[I]/IC50 = 3, Hill = 1",
+    "method": "inhibition = x / (1 + x)",
+    "wrong_values": [
+      0.5
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N17",
+    "category": "Pharmacology",
+    "kind": "numeric",
+    "prompt": "A compound has IC50 = 15 nM on its target and 4500 nM on an off-target. What is the selectivity (fold)?",
+    "answer": 300.0,
+    "unit": null,
+    "display_unit": "fold",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "on-target 15 nM, off-target 4500 nM",
+    "method": "selectivity = IC50(off) / IC50(on)",
+    "wrong_values": [
+      0.00333
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "N18",
+    "category": "Potency and assay math",
+    "kind": "numeric",
+    "prompt": "Three replicate IC50 measurements are 10 nM, 100 nM and 1000 nM. What is the appropriate average potency expressed as pIC50 (averaging in log space)?",
+    "answer": 7.0,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.02,
+    "partial_rel": 0.05,
+    "given": "IC50 = 10, 100, 1000 nM",
+    "method": "mean of the pIC50 values",
+    "wrong_values": [
+      6.43
+    ],
+    "groups": [],
+    "forbidden": [],
+    "wrong_text": "",
+    "negated_text": ""
+  },
+  {
+    "qid": "C01",
+    "category": "Concepts: enzyme kinetics",
+    "kind": "concept",
+    "prompt": "How does the IC50 of a competitive inhibitor relate to its Ki?",
+    "answer": null,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "",
+    "method": "",
+    "wrong_values": [],
+    "groups": [
+      {
+        "alts": [
+          "cheng-prusoff",
+          "cheng prusoff"
+        ],
+        "sentences": [
+          "The two are linked by the Cheng-Prusoff equation.",
+          "The conversion is given by the Cheng-Prusoff relationship."
+        ],
+        "paraphrase": "There is a standard textbook equation that converts one into the other."
+      },
+      {
+        "alts": [
+          "substrate concentration",
+          "[s]"
+        ],
+        "sentences": [
+          "The measured IC50 rises as the substrate concentration increases, because substrate competes with the inhibitor.",
+          "IC50 shifts whenever the substrate concentration in the assay is changed."
+        ],
+        "paraphrase": "A higher amount of competing substrate makes the inhibitor look weaker."
+      },
+      {
+        "alts": [
+          "km"
+        ],
+        "sentences": [
+          "The size of the correction is set by the substrate level relative to Km.",
+          "Km, the Michaelis constant, determines how strongly the substrate competes."
+        ],
+        "paraphrase": "The size of the correction depends on the enzyme's affinity for its substrate."
+      },
+      {
+        "alts": [
+          "dissociation constant",
+          "intrinsic",
+          "independent of substrate"
+        ],
+        "sentences": [
+          "Ki is the inhibitor's dissociation constant, a property of the enzyme-inhibitor pair.",
+          "Ki is intrinsic to the inhibitor and enzyme, unlike IC50."
+        ],
+        "paraphrase": "Ki reflects true binding affinity and does not change with assay conditions."
+      }
+    ],
+    "forbidden": [
+      "ic50\\s+(is\\s+)?(always\\s+)?(equal to|equals|the same as)\\s+(the\\s+)?ki"
+    ],
+    "wrong_text": "For a competitive inhibitor, IC50 is always equal to Ki, regardless of how much substrate is present.",
+    "negated_text": "It is a common misconception that IC50 equals Ki; they coincide only when substrate is far below Km."
+  },
+  {
+    "qid": "C02",
+    "category": "Concepts: data and modelling",
+    "kind": "concept",
+    "prompt": "Why can random train/test splits overestimate QSAR model performance, and what is a better approach?",
+    "answer": null,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "",
+    "method": "",
+    "wrong_values": [],
+    "groups": [
+      {
+        "alts": [
+          "analogs",
+          "analogues",
+          "same chemical series",
+          "near-duplicates",
+          "similar compounds"
+        ],
+        "sentences": [
+          "Random splits put close analogs of every test compound into the training set.",
+          "Compounds from the same chemical series end up on both sides of the split."
+        ],
+        "paraphrase": "Test molecules have near twins in the training data, so the test is too easy."
+      },
+      {
+        "alts": [
+          "optimistic",
+          "overestimate",
+          "inflate"
+        ],
+        "sentences": [
+          "The resulting performance estimate is optimistic.",
+          "Reported accuracy is inflated compared with real prospective use."
+        ],
+        "paraphrase": "The numbers look better than they will be in practice."
+      },
+      {
+        "alts": [
+          "scaffold split",
+          "cluster split",
+          "time split",
+          "temporal split",
+          "leave-one-series-out",
+          "group split"
+        ],
+        "sentences": [
+          "A scaffold split keeps whole chemical series out of the training data.",
+          "A time split, training on older compounds and testing on newer ones, mimics prospective use."
+        ],
+        "paraphrase": "Holding out entire families of molecules gives a more honest estimate."
+      },
+      {
+        "alts": [
+          "new chemotype",
+          "novel scaffold",
+          "extrapolat",
+          "applicability domain"
+        ],
+        "sentences": [
+          "What matters in a project is accuracy on new chemotypes, which requires extrapolation.",
+          "Predictions outside the applicability domain should be treated with caution."
+        ],
+        "paraphrase": "Real projects need predictions for chemistry the model has never seen."
+      }
+    ],
+    "forbidden": [
+      "gold standard",
+      "always gives?\\s+an unbiased"
+    ],
+    "wrong_text": "Random splitting is the gold standard and always gives an unbiased estimate of real-world performance.",
+    "negated_text": "It is false that random splitting is the gold standard for prospective performance."
+  },
+  {
+    "qid": "C03",
+    "category": "Concepts: drug-likeness",
+    "kind": "concept",
+    "prompt": "Does passing Lipinski's rule of five guarantee that a compound is orally bioavailable?",
+    "answer": null,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "",
+    "method": "",
+    "wrong_values": [],
+    "groups": [
+      {
+        "alts": [
+          "not a guarantee",
+          "does not guarantee",
+          "no guarantee",
+          "rule of thumb",
+          "guideline"
+        ],
+        "sentences": [
+          "Passing the rule is not a guarantee of oral bioavailability.",
+          "The rule of five is a rule of thumb, not a law."
+        ],
+        "paraphrase": "Meeting the criteria does not ensure that a compound is absorbed well."
+      },
+      {
+        "alts": [
+          "molecular weight",
+          "hydrogen-bond",
+          "hydrogen bond",
+          "logp"
+        ],
+        "sentences": [
+          "It flags molecular weight above 500, logP above 5, more than 5 donors or more than 10 acceptors.",
+          "The criteria concern hydrogen bond donors and acceptors, size and lipophilicity."
+        ],
+        "paraphrase": "It is based on simple counts of size, lipophilicity, donors and acceptors."
+      },
+      {
+        "alts": [
+          "permeability",
+          "solubility",
+          "first-pass",
+          "transporter",
+          "efflux"
+        ],
+        "sentences": [
+          "Bioavailability also depends on solubility and membrane permeability.",
+          "First-pass metabolism, efflux and transporters further reduce exposure."
+        ],
+        "paraphrase": "Absorption and liver clearance matter as well."
+      },
+      {
+        "alts": [
+          "exception",
+          "natural product",
+          "macrocycle",
+          "beyond rule of five",
+          "bro5"
+        ],
+        "sentences": [
+          "There are many exceptions among approved drugs.",
+          "Natural products and macrocycles often violate the rule yet are orally active."
+        ],
+        "paraphrase": "Plenty of marketed oral drugs break these limits."
+      }
+    ],
+    "forbidden": [
+      "guarantee[sd]?\\s+(to be\\s+|that it is\\s+)?orally",
+      "is guaranteed to be bioavailable"
+    ],
+    "wrong_text": "Any compound that passes Lipinski's rule of five is guaranteed to be orally bioavailable.",
+    "negated_text": "It is a myth that a compound passing the rule is guaranteed to be orally bioavailable."
+  },
+  {
+    "qid": "C04",
+    "category": "Concepts: data quality",
+    "kind": "concept",
+    "prompt": "Why are mixed concentration units in a bioactivity table a data-quality risk, and what should be done?",
+    "answer": null,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "",
+    "method": "",
+    "wrong_values": [],
+    "groups": [
+      {
+        "alts": [
+          "nm, um",
+          "nm and um",
+          "nm or um",
+          "nanomolar",
+          "micromolar"
+        ],
+        "sentences": [
+          "Records report potencies in nM, uM or even M, so the same number can mean very different things.",
+          "Some values are nanomolar and others micromolar."
+        ],
+        "paraphrase": "Different rows use different concentration scales for the same assay."
+      },
+      {
+        "alts": [
+          "1000",
+          "orders of magnitude",
+          "three log"
+        ],
+        "sentences": [
+          "A mislabelled unit shifts the apparent potency 1000-fold.",
+          "The error can reach three orders of magnitude."
+        ],
+        "paraphrase": "The mistake can be enormous in potency terms."
+      },
+      {
+        "alts": [
+          "standardize",
+          "standardise",
+          "convert",
+          "normalize",
+          "normalise"
+        ],
+        "sentences": [
+          "Convert every record to one unit, such as nM, before comparing values.",
+          "Standardise to a single unit and compute pIC50."
+        ],
+        "paraphrase": "Put everything on one common scale first."
+      },
+      {
+        "alts": [
+          "flag",
+          "range check",
+          "outlier",
+          "replicate",
+          "sanity check"
+        ],
+        "sentences": [
+          "Add automated checks that flag implausible values and replicate disagreement.",
+          "Range checks against the assay's dynamic range catch impossible values."
+        ],
+        "paraphrase": "Automated screening for impossible numbers is worthwhile."
+      }
+    ],
+    "forbidden": [
+      "mixed units are harmless",
+      "units (do not|don't) matter"
+    ],
+    "wrong_text": "Mixed units are harmless because the numbers can simply be averaged directly.",
+    "negated_text": "It is not true that mixed units are harmless."
+  },
+  {
+    "qid": "C05",
+    "category": "Concepts: screening",
+    "kind": "concept",
+    "prompt": "What are PAINS compounds and how should they be treated in a screening hit list?",
+    "answer": null,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "",
+    "method": "",
+    "wrong_values": [],
+    "groups": [
+      {
+        "alts": [
+          "pan-assay",
+          "pan assay"
+        ],
+        "sentences": [
+          "PAINS stands for pan-assay interference compounds.",
+          "PAINS are 'pan assay' interference chemotypes."
+        ],
+        "paraphrase": "PAINS is an acronym for a class of troublesome screening compounds."
+      },
+      {
+        "alts": [
+          "false positive",
+          "promiscuous",
+          "assay artifact",
+          "artefact",
+          "artifact"
+        ],
+        "sentences": [
+          "They tend to give false positives by reacting with or disrupting many different assays.",
+          "Their activity is often an assay artifact rather than genuine target binding."
+        ],
+        "paraphrase": "Their apparent activity usually does not reflect real target engagement."
+      },
+      {
+        "alts": [
+          "substructure",
+          "structural alert",
+          "structural filter"
+        ],
+        "sentences": [
+          "They are recognised by substructure filters such as catechols or rhodanines.",
+          "Structural alerts are applied computationally to flag them."
+        ],
+        "paraphrase": "Certain recurring chemical motifs identify them."
+      },
+      {
+        "alts": [
+          "orthogonal",
+          "counter-screen",
+          "counterscreen",
+          "confirm",
+          "follow-up",
+          "secondary assay"
+        ],
+        "sentences": [
+          "Flagged hits should be confirmed in an orthogonal assay before investing further.",
+          "A counter-screen helps decide whether activity is real."
+        ],
+        "paraphrase": "They should be re-tested in a different assay format before anyone relies on them."
+      }
+    ],
+    "forbidden": [
+      "pains\\W+(compounds\\W+)?(are|is)\\W+(guaranteed\\W+|always\\W+)(true|genuine|real)"
+    ],
+    "wrong_text": "PAINS compounds are always genuine hits and should be advanced without further testing.",
+    "negated_text": "It is wrong to assume that PAINS compounds are always genuine hits."
+  },
+  {
+    "qid": "C06",
+    "category": "Concepts: omics statistics",
+    "kind": "concept",
+    "prompt": "Why is a raw p-value threshold of 0.05 not sufficient when testing thousands of genes for differential expression?",
+    "answer": null,
+    "unit": null,
+    "display_unit": "",
+    "rel_tol": 0.02,
+    "abs_tol": 0.0,
+    "partial_rel": 0.1,
+    "given": "",
+    "method": "",
+    "wrong_values": [],
+    "groups": [
+      {
+        "alts": [
+          "multiple testing",
+          "multiple comparisons",
+          "thousands of tests",
+          "thousands of genes"
+        ],
+        "sentences": [
+          "Testing thousands of genes at once is a multiple testing problem.",
+          "With thousands of tests, small p-values arise frequently by chance alone."
+        ],
+        "paraphrase": "Looking at so many genes simultaneously changes how p-values should be read."
+      },
+      {
+        "alts": [
+          "false positive",
+          "type i",
+          "expected number"
+        ],
+        "sentences": [
+          "At alpha 0.05, about 5% of truly null genes would still be false positives.",
+          "The expected number of false hits is large without correction."
+        ],
+        "paraphrase": "Many apparently significant genes would simply be noise."
+      },
+      {
+        "alts": [
+          "false discovery rate",
+          "fdr",
+          "benjamini",
+          "bonferroni",
+          "adjusted p",
+          "q-value"
+        ],
+        "sentences": [
+          "Control the false discovery rate with the Benjamini-Hochberg procedure.",
+          "Use Bonferroni or report adjusted p-values (q-values)."
+        ],
+        "paraphrase": "Apply a standard correction procedure to the whole list of p-values."
+      }
+    ],
+    "forbidden": [
+      "no correction is (needed|necessary)",
+      "p-value below 0\\.05 is sufficient"
+    ],
+    "wrong_text": "No correction is needed; a raw p-value below 0.05 is sufficient for every gene.",
+    "negated_text": "It is wrong to say that no correction is needed when testing thousands of genes."
+  }
+]

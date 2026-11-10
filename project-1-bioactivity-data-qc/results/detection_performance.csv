@@ -1,0 +1,10 @@
+error_type,injected,detected,recall
+exact_duplicate,18,18,1.0
+invalid_smiles,18,18,1.0
+missing_value,9,9,1.0
+negative_value,9,9,1.0
+outlier_replicate,18,14,0.7777777777777778
+smiles_id_conflict,9,8,0.8888888888888888
+unit_mislabel,27,24,0.8888888888888888
+wrong_endpoint,27,27,1.0
+zero_value,4,4,1.0
